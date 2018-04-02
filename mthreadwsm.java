@@ -36,7 +36,7 @@ class Oddnum{
       
     class ThreadTesting{  
     public static void main(String args[]){  
-    Oddnum object = new Oddnum();//only one object  
+    Oddnum object = new Oddnum(); 
     Thread1 t1 = new Thread1(object);  
     Thread2 t2 = new Thread2(object);  
     t1.start();  
